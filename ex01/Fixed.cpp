@@ -41,7 +41,7 @@ int Fixed::toInt() const
 
 float Fixed::toFloat() const
 {
-    return static_cast<float>(Fix) / (1 << FixBits);
+    return (float)(Fix) / (1 << FixBits);
 }
 
 std::ostream &operator<<(std::ostream &out, const Fixed &obj)
