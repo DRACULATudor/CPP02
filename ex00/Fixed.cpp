@@ -1,12 +1,12 @@
 #include "Fixed.hpp"
 
-
 Fixed::Fixed() : Fix(0){
     static const int FixBits = 8;
+    (void) FixBits;
     std::cout << "Default constructor called" << std::endl;
 }
 
-Fixed::Fixed(const Fixed &copy){ //copy construct which does same tthing as the default constructor should also do
+Fixed::Fixed(const Fixed &copy){ //copy construct which does same tthing as the default constructor shld also do
     std::cout << "Copy constructor called" << std::endl;
     this->Fix = copy.Fix;
 }
