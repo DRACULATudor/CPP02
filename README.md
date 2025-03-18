@@ -15,11 +15,9 @@ This project is part of the **C++ Modules** at **42 School**, designed to deepen
 
 ## Compilation
 
-``
 Compile the project:
 ```
 make
-
 ```
 Or, if there is no Makefile:
 ```
