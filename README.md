@@ -13,14 +13,9 @@ This project is part of the **C++ Modules** at **42 School**, designed to deepen
     Best practices for class structure
 
 
-## Installation & Compilation
+## Compilation
 
-### Clone the repository:
-```bash
-git clone https://github.com/your-username/cpp-module-02.git
-cd cpp-module-02
-
-```
+``
 Compile the project:
 ```
 make
